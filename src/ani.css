@@ -1,0 +1,82 @@
+
+.main{
+    align-self: center;
+    
+   
+     font-weight: 200;
+     /* border-bottom: 1px inset rgb(49, 23, 197); */
+     /* box-shadow: 0 7px 6px rgb(219, 207, 207); */
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+ 
+   
+ }
+
+ .c{
+    
+     /* border-radius: 2%;  */
+     border-top-right-radius: 100%;
+     height: 19px;
+     width: 25px;
+     padding: 2px;
+     color: antiquewhite;
+ }
+ 
+ .first{
+     background-color: rgb(0, 89, 255);
+     transform-origin: bottom;
+     animation: ani-1 0.3s linear 0s infinite normal;
+ }
+ .second{
+     background-color: rgb(153, 33, 137);
+    
+     transform-origin: bottom;
+     animation: ani-2 0.4s linear 0s infinite normal;
+ }
+ .third{
+     background-color: rgb(187, 113, 63);
+     
+     transform-origin: bottom;
+     animation: ani-3 0.5s linear 0s infinite normal;
+ }
+ .fourth{
+     background-color: rgb(41, 23, 35);
+    
+     transform-origin: bottom;
+     animation: ani-4 0.6s linear 0s infinite normal;
+ }
+ 
+ 
+ @keyframes ani-1 {
+     0%{
+         transform: scaleY(1);
+     }
+     100%{
+         transform: scaleY(2);
+     }
+ }
+ @keyframes ani-2 {
+     0%{
+         transform: scaleY(1);
+     }
+     100%{
+         transform: scaleY(2);
+     }
+ }
+ @keyframes ani-3 {
+     0%{
+         transform: scaleY(1);
+     }
+     100%{
+         transform: scaleY(2);
+     }
+ }
+ @keyframes ani-4 {
+     0%{
+         transform: scaleY(1);
+     }
+     100%{
+         transform: scaleY(2);
+     }
+ }
